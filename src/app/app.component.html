@@ -4,7 +4,7 @@
     <app-painel (encerrarJogo) = "encerrarJogo($event)"></app-painel>
 </div>
 <ng-template #fimDeJogo>
-    <div *ngIf="tipoEnceramento === 'derrota'; else fimDeJogoVitoria" class="container" style="margin-top: 50px">
+    <div *ngIf="tipoEncerramento === 'derrota'; else fimDeJogoVitoria" class="container" style="margin-top: 50px">
         <div class="row">
             <div class="col">
                 <p style="color:red">Infelizmente, você perdeu</p>
